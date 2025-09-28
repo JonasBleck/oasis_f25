@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HS1 Demo</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color:white;
+            text-align: center;
+        }
+        h1 {
+            color:bisque;
+        }
+        button {
+            background-color:aliceblue;
+            padding: 10px 20px;
+            border: 0px;
+        }
+        button:hover {
+            background-color:bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Very Basic Blank Website</h1>
+    <p>Aryan not boring nonono</p>
+    <h6>nonono</h6>
+    <button onclick="increaseCounter()"> Deny the HATE </button>
+    <p id="counter">You clicked it 0 times</p>
+        <script>
+            let count = 0;
+            function increaseCounter() {
+                count ++;
+                doucment.getElementById("counter").innerHTML = "You clicked it " + count + " times";
+            }
+        </script>
+</body>
+</html>
